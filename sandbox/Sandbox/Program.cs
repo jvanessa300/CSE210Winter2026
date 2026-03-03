@@ -1,32 +1,88 @@
 using System;
+using System.IO.Compression;
+using System.Runtime.CompilerServices;
 
 class Program
 {
+    
+
+
+
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Sandbox World!");
-  
+        Console.WriteLine("Circle");
+
+        Circle myCircle = new Circle();
+
+        myCircle.SetRadius(10);
+        Console.WriteLine(myCircle.GetRadius());
+        myCircle._radius = 900;
+
+        Circle myCircle2 = new Circle();
+
+        myCircle2.SetRadius(9999999999);
+        Console.WriteLine(myCircle2.GetRadius());
+
+        Console.WriteLine(myCircle2.GetCircumference());
+
+        Console.WriteLine(myCircle2.GetArea());
+        Console.WriteLine(myCircle2.GetDiameter());
+;  
     }
 
-    static void main(string[] args)
-    {
-        Greeting();
+    // public static void passByValue(int a)
+    // {
+    //     a++;
+    //     Console.WriteLine($"In the value function {a}");
+    // }
+    // public static void passByRef(ref int x)
+    // {
+    //     x ++;
+    //     Console.WriteLine($"In the ref function {x}");
+    // }
 
-        int total = AddNumbers(10, 20);
+    // public static void passByOut(out int y)
+    // {
+    //     y = 10;
+    // }
 
-        Console.WriteLine(total);
+    // static void secondMain(string[] args)
+    // {
+    //     int x = 20;
+    //     Console.WriteLine($"In the main 1: {x}");
 
-    }
+    //     passByValue(x);
+    //     Console.WriteLine($"Int the main 2: {x}");
+    //     passByRef(ref x);
+    //     Console.WriteLine($"Inthe main ref 3: {x}");
 
-    public static int AddNumbers(int n1, int n2)
-    {
-        return n1 + n2;
-    }
+    //     int z;
+    //     passByOut(out z);
+    //     Console.WriteLine(z);
 
-    public static void Greeting()
-    {
-        Console.WriteLine("Hello Bob");
-    }
+    // }
+
+
+
+    // static void main(string[] args)
+    // {
+    //     Greeting();
+
+    //     int total = AddNumbers(10, 20);
+
+    //     Console.WriteLine(total);
+
+    // }
+
+    // public static int AddNumbers(int n1, int n2)
+    // {
+    //     return n1 + n2;
+    // }
+
+    // public static void Greeting()
+    // {
+    //     Console.WriteLine("Hello Bob");
+    // }
 }
 
 // NOTES //
