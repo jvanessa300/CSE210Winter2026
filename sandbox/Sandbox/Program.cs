@@ -16,7 +16,7 @@ class Program
 
         myCircle.SetRadius(10);
         Console.WriteLine(myCircle.GetRadius());
-        myCircle._radius = 900;
+        // myCircle._radius = 900;
 
         Circle myCircle2 = new Circle();
 
