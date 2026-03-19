@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angle", "sandbox\Angle\Angl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatch", "sandbox\TryCatch\TryCatch.csproj", "{581B2F0E-3BFF-4976-B951-3E9B4D8F37C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonProject", "sandbox\PersonProject\PersonProject.csproj", "{96AB1BB7-9756-4CE3-955B-712CD8BB0241}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -317,6 +319,18 @@ Global
 		{581B2F0E-3BFF-4976-B951-3E9B4D8F37C1}.Release|x64.Build.0 = Release|Any CPU
 		{581B2F0E-3BFF-4976-B951-3E9B4D8F37C1}.Release|x86.ActiveCfg = Release|Any CPU
 		{581B2F0E-3BFF-4976-B951-3E9B4D8F37C1}.Release|x86.Build.0 = Release|Any CPU
+		{96AB1BB7-9756-4CE3-955B-712CD8BB0241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AB1BB7-9756-4CE3-955B-712CD8BB0241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AB1BB7-9756-4CE3-955B-712CD8BB0241}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{96AB1BB7-9756-4CE3-955B-712CD8BB0241}.Debug|x64.Build.0 = Debug|Any CPU
+		{96AB1BB7-9756-4CE3-955B-712CD8BB0241}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{96AB1BB7-9756-4CE3-955B-712CD8BB0241}.Debug|x86.Build.0 = Debug|Any CPU
+		{96AB1BB7-9756-4CE3-955B-712CD8BB0241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AB1BB7-9756-4CE3-955B-712CD8BB0241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AB1BB7-9756-4CE3-955B-712CD8BB0241}.Release|x64.ActiveCfg = Release|Any CPU
+		{96AB1BB7-9756-4CE3-955B-712CD8BB0241}.Release|x64.Build.0 = Release|Any CPU
+		{96AB1BB7-9756-4CE3-955B-712CD8BB0241}.Release|x86.ActiveCfg = Release|Any CPU
+		{96AB1BB7-9756-4CE3-955B-712CD8BB0241}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -343,6 +357,7 @@ Global
 		{80DC8317-35BE-4231-A364-4C264F67218C} = {9BD1CAC1-4326-4D59-9857-A733451B87EB}
 		{2AE5FF10-8F4C-45AF-B4B6-A571938ABC0A} = {9BD1CAC1-4326-4D59-9857-A733451B87EB}
 		{581B2F0E-3BFF-4976-B951-3E9B4D8F37C1} = {9BD1CAC1-4326-4D59-9857-A733451B87EB}
+		{96AB1BB7-9756-4CE3-955B-712CD8BB0241} = {9BD1CAC1-4326-4D59-9857-A733451B87EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19AF66DC-EAD7-4425-8965-A7DBC84E77B9}
