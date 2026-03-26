@@ -1,4 +1,6 @@
-class Person
+using System.Security.AccessControl;
+
+abstract class Person
 {
     private string _firstName;
     private string _lastName;
@@ -9,12 +11,52 @@ class Person
     {
         _firstName = firstName;
         _lastName = lastName;
-        _age = age;
-        _weight = weight;
+        SetAge(age);
+        SetWeight(weight);
+        // _age = age;
+        // _weight = weight;
     }
 
-    public string GetPersonInformation()
+    public virtual string GetPersonInformation()
     {
         return $"Name: {_firstName} {_lastName}, age: {_age}, weight {_weight}";
     }
+
+    public int GetAge()
+    {
+        return _age;
+    }
+
+    public abstract double GetSalary();
+
+    public int GetWeight()
+    {
+        return _weight;
+    }
+
+    public void SetWeight(int weight)
+    {
+        if(weight < 4 || weight > 500)
+        {
+            Console.WriteLine("Invalid weight");
+        }
+        else
+        {
+            _weight = weight;
+        }
+    }
+
+    public void SetAge(int age)
+    {
+        if(age < 0 || age > 125)
+        {
+            Console.WriteLine("Invalid age");
+        }
+        else
+        {
+            _age = age;
+        }
+    }
+
+
 }
