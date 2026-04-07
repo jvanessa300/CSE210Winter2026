@@ -1,4 +1,4 @@
-public abstract class Activity
+public abstract class Activity 
 {
     private string _date;
     private int _minutes;

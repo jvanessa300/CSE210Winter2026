@@ -30,7 +30,7 @@ class Program
             "June 10, 2026",
             "1:00 PM",
             address3,
-            "Sunny with light winds");
+            "Sunny with light winds"); 
 
         Console.WriteLine("LECTURE");
         Console.WriteLine(lecture.GetStandardDetails());

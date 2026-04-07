@@ -33,7 +33,7 @@ public class Event
     public string GetTime()
     {
         return _time;
-    }
+    } 
 
     public Address GetAddress()
     {

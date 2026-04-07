@@ -7,7 +7,7 @@ public class OutdoorGathering : Event
     {
         _weatherStatement = weatherStatement;
     }
-
+ 
     public string GetFullDetails()
     {
         return $"{GetStandardDetails()}\nType: Outdoor Gathering\nWeather: {_weatherStatement}";

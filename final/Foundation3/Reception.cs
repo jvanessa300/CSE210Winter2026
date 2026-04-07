@@ -12,7 +12,7 @@ public class Reception : Event
     {
         return $"{GetStandardDetails()}\nType: Reception\nRSVP Email: {_rsvpEmail}";
     }
-
+ 
     public string GetShortDescription()
     {
         return $"Type: Reception\nTitle: {GetTitle()}\nDate: {GetDate()}";
